@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.text_area
+	{
+		width:254px;height:150px;
+	}
+	.blue
+	{
+		background-color: #2184be !important;
+	}
+	
+	
+	#div1
+	{
+		margin-top:10px;
+		background-color:white;
+		border-radius: 2px;
+		float: left;
+		height: 200px;
+		width: 213px;
+	}
+	
+	
+	.ol{
+		margin-bottom:10px ;
+		}
+	#api_settings_tbl
+	{
+		margin-left:20px;
+	}
+	#div2
+	{
+		float: left;
+		height: 339px;
+		width: 820px;
+		border:1px solid gray;
+		background-color:gray !important;
+		margin-left:50px !important;
+		margin-top:10px  !important;
+		
+	}
+	#tabs_li li
+	{
+		margin-left:7px;
+		width:200px;
+		height:40px;
+		border-radius:5px 5px 5px 5px;
+	}
+	.weekly{
+	 	position:relaive;
+		left:100px;
+	}
+	
+	.mothly{
+		margin-left:50px !important;
+	}
+	
+	#btn1,#btn2,#btn3,#btn4,#btn_admin1,#btn_admin2,#btn_admin3,#btn_admin4,#btn_new_order
+	{
+		float:left;
+		color: white;
+		font-size: 15px;
+		text-align:left;
+		width:200px;
+		height:40px;
+		background-color:#9dc8e2;
+		
+	}
+	
+	.table_div,.table_div2,.table_div3,.table_div4,.table_div5,.table_div6,.table_div7,.table_div8,.table_div9,.table_history,.table_div_new_order
+	{
+		border-radius: 2px;
+		width:800px;
+		float:left;
+		margin-left:10px;
+		margin-top:10px;
+		background-color:white;
+	}
+	
+	#save
+	{
+	 height: 37px;
+	 border-radius: 7px;
+	}
+	
+	.dropdown-content {
+	
+	width:300px;
+	   
+	}
+	.btn_sign1,.btn_sign2
+	{
+		width:50px !important;
+	}
+	
+	.dropdown a:hover {background-color: #f1f1f1}
+	.table_div9
+	{
+		background-color:#F1F1F1;
+		position:relative;
+		bottom:9px;
+	}
+	.table_div5,.table_history{
+		position: relative;
+		bottom: 18px;
+		left:8px;
+	}
+	.sms_text
+	{
+		width:251px;
+	}
+	.star
+	{
+		color:red;
+	}
+	.green
+	{
+	 color: green;
+	 
+	}
+	
+	.api_setting_btn
+	{
+		margin-left:50px !important;
+	}
+
+   /*****************************************/
+     /*******CSS For Checkbox**********/
+   /*****************************************/
+	.custom-checkbox{
+			width: 16px;
+			height: 16px;
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			top: 3px;
+			//background-color:blue;
+			background:url(../images/checked1.png) no-repeat ;
+	}
+	.custom-checkbox:hover{
+		//background-color:gray;
+	}
+	.custom-checkbox.selected{
+	
+		background:url(../images/cheked2.png) no-repeat;
+	}
+	.custom-checkbox input[type="checkbox"]{
+		margin: 0;
+		position: absolute;
+		z-index: 2;            
+		cursor: pointer;
+		outline: none;
+		opacity: 0;
+		/* CSS hacks for older browsers */
+		_noFocusLine: expression(this.hideFocus=true); 
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		-khtml-opacity: 0;
+		-moz-opacity: 0;
+	}
+		
+	
+	
+   /*****************************************/
+     /*******CSS For Table**********/
+   /*****************************************/	
+	
+		strong {
+			font-weight: bold; 
+		}
+		
+		em {
+			font-style: italic; 
+		}
+		.table_div
+		{
+			margin-top:20px;
+		}
+		.history_logs {
+			background: #f5f5f5;
+			border-collapse: separate;
+			box-shadow: inset 0 1px 0 #fff;
+			font-size: 12px;
+			line-height: 14px;
+			margin: 30px auto;
+			text-align: left;
+			width: 1012px;
+			margin-top:60px !important;
+			
+		}	
+		
+		.history_logs th {
+			background: url(http://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+			border-left: 1px solid #555;
+			border-right: 1px solid #777;
+			border-top: 1px solid #555;
+			border-bottom: 1px solid #333;
+			box-shadow: inset 0 1px 0 #999;
+			color: #fff;
+		    font-weight: bold;
+			padding: 10px 9px;
+			position: relative;
+			text-shadow: 0 1px 0 #000;	
+		}
+		
+		.history_logs th:after {
+			background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+			content: '';
+			display: block;
+			height: 25%;
+			left: 0;
+			margin: 1px 0 0 0;
+			position: absolute;
+			top: 25%;
+			width: 100%;
+		}
+		
+		.history_logs th:first-child {
+			border-left: 1px solid #777;	
+			box-shadow: inset 1px 1px 0 #999;
+		}
+		
+		.history_logs th:last-child {
+			box-shadow: inset -1px 1px 0 #999;
+		}
+		
+		.history_logs td {
+			border-right: 1px solid #fff;
+			border-left: 1px solid #e8e8e8;
+			border-top: 1px solid #fff;
+			border-bottom: 1px solid #e8e8e8;
+			padding: 18px 9px;
+			position: relative;
+			//transition: all 300ms;
+		}
+		
+		.history_logs td:first-child {
+			box-shadow: inset 1px 0 0 #fff;
+		}	
+		
+		.history_logs td:last-child {
+			border-right: 1px solid #e8e8e8;
+			box-shadow: inset -1px 0 0 #fff;
+		}	
+		
+		.history_logs tr {
+			background: url(http://jackrugile.com/images/misc/noise-diagonal.png);	
+		}
+		
+		.history_logs tr:nth-child(odd) td {
+			background: #f1f1f1 url(http://jackrugile.com/images/misc/noise-diagonal.png);	
+		}
+		
+		.history_logs tr:last-of-type td {
+			box-shadow: inset 0 -1px 0 #fff; 
+		}
+		
+		.history_logs tr:last-of-type td:first-child {
+			box-shadow: inset 1px -1px 0 #fff;
+		}	
+		
+		.history_logs tr:last-of-type td:last-child {
+			box-shadow: inset -1px -1px 0 #fff;
+		}	
+		
+		.history_logs tbody:hover td {
+		
+			text-shadow: 0 0 3px #aaa;
+		}
+		
+		.history_logs tbody:hover tr:hover td {
+			color: #444;
+			text-shadow: 0 1px 0 #fff;
+		}
+		
+		
+		.th1 
+		{
+			width: 22px !important;
+		}
+		.th2, .th4 {
+			width: 43px !important;
+		}
+		.th3 {
+			width: 203px !important;
+		}
+		.th5 {
+			width: 100px !important;
+		}
+		.th6, .th7 {
+			width: 83px !important;
+		}
+		
+		  /*****************************************/
+			 /*******CSS For Table**********/
+		   /*****************************************/	
+	
+		.tooltip
+        {
+            display: inline;
+            position: relative;
+            text-decoration: none;
+            top: 0px;
+            left: 4px;
+        }
+        .tooltip:hover:after
+        {
+            background: #333;
+            background: rgba(0,0,0,.8);
+            border-radius: 5px;
+            top: -5px;
+            color: #fff;
+            content: attr(alt);
+            left: 160px;
+            padding: 5px 15px;
+            position: absolute;
+            z-index: 98;
+            width: 284px;
+        }
+        .tooltip:hover:before
+        {
+            border: solid;
+            border-color: transparent black;
+            border-width: 6px 6px 6px 0;
+            bottom: 20px;
+            content: "";
+            left: 155px;
+            position: absolute;
+            z-index: 99;
+            top: 3px;
+        }
+		
+		.filter_div
+		{
+			position:relative;
+			top:20px;
+			left:20px;
+		}
+		
+		.search
+		{
+			 margin-left: 48px !important;
+    		 width: 118px !important; 
+		}
+		
+		#element_to_pop_up { 
+			background-color:#fff;
+			border-radius:15px;
+			color:#000;
+			display:none; 
+			padding:20px;
+			min-width:400px;
+			min-height: 180px;
+		}
+		.b-close{
+			cursor:pointer;
+			position:absolute;
+			right:10px;
+			top:5px;
+		}
+		
+		.my-button {
+			margin: 1em;
+		}
+
+		
+	  /*****************************************/
+		 /*******CSS pagination**********/
+	   /*****************************************/	
+		#pagination_anchor
+		{
+			display:inline-block;
+			margin-left:5px;
+			background-color:#F2F2F2;
+			width:20px;
+		}
+		#pagination_anchor:hover
+		{
+			background-color:#36F;
+		}
+		
+		.selected_anchor
+		{
+			background-color:#36F !important;
+			color:white;
+		}
+		.not_found
+		{
+			bottom: 20px;
+			color: red !important;
+			left: 369px;
+			position: relative;
+			width: 251px;
+		}
+		
+		#next
+		{
+			margin-left:20px;
+		}
+		#prev
+		{
+			margin-right:20px;
+		}
